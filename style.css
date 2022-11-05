@@ -34,7 +34,7 @@ ul {
 }
 
 body {
-  background-color:#121214;
+  background-color: #121214;
   background-image: var(--bg-color);
   background-repeat: no-repeat;
   background-position: center;
@@ -107,7 +107,7 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.card ul p{
+.card ul p {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,7 +140,7 @@ header {
 .card ul li img {
   transition: transform 0.6s;
 }
-.card ul li strong span{
+.card ul li strong span {
   text-transform: uppercase;
   font-size: 12px;
   display: block;
@@ -150,9 +150,6 @@ header {
   padding: 3px 3px;
   color: #f7dd43;
 }
-
-
-
 .card {
   animation: appear 4s;
 }
@@ -174,4 +171,32 @@ header {
     max-width: 670px;
     flex-wrap: wrap;
   }
+}
+
+#themes {
+  position: fixed;
+  right: 2%;
+  bottom: 95%;
+  /* left: 5%; */
+}
+#themes button {
+  border: none;
+  padding: 10px 10px;
+}
+
+#themes button:hover {
+  cursor: pointer;
+}
+
+.theme1 {
+  background-color: #047c3f;
+}
+.theme2 {
+  background-color: #338af3;
+}
+.theme3 {
+  background-color: #9747ff;
+}
+.theme4 {
+  background-color: #f7dd43;
 }

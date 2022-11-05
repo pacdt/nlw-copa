@@ -1,11 +1,10 @@
 function createGame(player1, hour, group, player2) {
   return `
   <li>
-          <img src="./assets/flags/icon=${player1}.svg" alt="Bandeira do ${player1}" />
-          <strong><span>grupo ${group}</span> ${hour}</strong>
-          <img src="./assets/flags/icon=${player2}.svg" alt="Bandeira da ${player2}" />
+    <img src="./assets/flags/icon=${player1}.svg" alt="Bandeira do ${player1}" />
+    <strong><span>grupo ${group}</span> ${hour}</strong>
+    <img src="./assets/flags/icon=${player2}.svg" alt="Bandeira da ${player2}" />
   </li>
-
   <p>
   <span>
   ${player1}</span>
@@ -13,9 +12,9 @@ function createGame(player1, hour, group, player2) {
   </p>
   `
 }
-let delay = -1;
+let delay = -1
 function createCard(date, day, games) {
-  delay = delay + 1;
+  delay = delay + 1
   return `
     <div class="card" style="animation-delay: ${delay}s">
       <h2>${date} <span>${day}</span></h2>
@@ -24,8 +23,16 @@ function createCard(date, day, games) {
       </ul>
     </div>`
 }
+
 document.querySelector("#cards").innerHTML =
-  createCard("24/11", "quinta", createGame("brazil", "16:00", "G", "serbia")) +
+  createCard(
+    "24/11",
+    "quinta",
+    createGame("switzerland", "07:00", "g", "cameroon") +
+      createGame("argentina", "10:00", "h", "south korea") +
+      createGame("portugal", "13:00", "h", "ghana") +
+      createGame("brazil", "16:00", "G", "serbia")
+  ) +
   createCard(
     "28/11",
     "segunda",
@@ -37,3 +44,8 @@ document.querySelector("#cards").innerHTML =
     createGame("cameroon", "16:00", "G", "brazil") +
       createGame("portugal", "13:00", "G", "uruguay")
   )
+
+const color = document.querySelector(".theme")
+function changeColor(color){
+  document.body.classList.toggle(color)
+}
