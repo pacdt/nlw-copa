@@ -173,7 +173,7 @@ header {
     flex-wrap: wrap;
   }
 }
-@media (min-width: 1376px) {
+@media (min-width: 1040px) {
   #cards {
     max-width: 1024px;
   }
