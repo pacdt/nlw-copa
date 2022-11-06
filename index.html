@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calendário de Jogos - NLW Copa</title>
     <link rel="stylesheet" href="./style.css" />
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/football.svg" type="image/x-icon">
   </head>
   <body class="theme">
     <div id="themes">
@@ -18,10 +18,12 @@
       <button class="theme2" onclick="changeColorBlue('blue')"></button>
       <button class="theme3" onclick="changeColorPurple('purple')"></button>
       <button class="theme4" onclick="changeColorYellow('yellow')"></button>
+      <button class="theme5" onclick="changeColorRed('red')"></button>
     </div>
     <div id="app">
       <header>
-        <img src="./assets/logo.svg" alt="Logo da NLW" />
+        <img class="logo" src="./assets/logo.webp" alt="Logo da NLW" />
+        <h2>calendário</h2>
       </header>
       <main id="cards">
       </main>
