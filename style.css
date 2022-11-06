@@ -172,6 +172,16 @@ header {
     flex-wrap: wrap;
   }
 }
+@media (min-width: 1024px) {
+  #cards {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1376px){
+  #cards{
+    max-width: 1376px;
+  }
+}
 
 #themes {
   position: fixed;

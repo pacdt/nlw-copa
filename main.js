@@ -43,9 +43,20 @@ document.querySelector("#cards").innerHTML =
     "sexta",
     createGame("cameroon", "16:00", "G", "brazil") +
       createGame("portugal", "13:00", "G", "uruguay")
+  ) +
+  createCard(
+    "02/12",
+    "sexta",
+    createGame("cameroon", "16:00", "G", "brazil") +
+      createGame("portugal", "13:00", "G", "uruguay")
   )
 
 const color = document.querySelector(".theme")
-function changeColor(color){
-  document.body.classList.toggle(color)
+function changeColor(color) {
+  if (color == ".theme") {
+    document.body.classList.toggle(color)
+  }
+  if (color == ".blue" || ".green" || ".blue" || ".purple" || ".yellow") {
+    document.body.classList.toggle(color)
+  }
 }
