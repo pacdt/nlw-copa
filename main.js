@@ -48,30 +48,30 @@ document.querySelector("#cards").innerHTML =
   createCard(
     "20/11",
     "domingo",
-    createGame("qatar", "13:00", "a", "al-bayt", "ecuador")
+    createGame("catar", "13:00", "a", "al-bayt", "equador")
   ) +
   createCard(
     "21/11",
     "segunda",
-    createGame("england", "10:00", "b", "khalifa", "iran") +
-      createGame("senegal", "13:00", "a", "al-thumama", "netherlands") +
-      createGame("united states", "16:00", "b", "al-rayyan", "wales")
+    createGame("inglaterra", "10:00", "b", "khalifa", "iran") +
+      createGame("senegal", "13:00", "a", "al-thumama", "holanda") +
+      createGame("eua", "16:00", "b", "al-rayyan", "gales")
   ) +
   createCard(
     "22/11",
     "terça",
-    createGame("argentina", "07:00", "c", "lusail", "saudi arabia") +
-      createGame("denmark", "10:00", "d", "Education City", "tunisia") +
-      createGame("mexico", "13:00", "c", "ras abu aboud", "poland") +
-      createGame("france", "16:00", "d", "al-janoub", "australia")
+    createGame("argentina", "07:00", "c", "lusail", "arabia saudita") +
+      createGame("dinamarca", "10:00", "d", "Education City", "tunisia") +
+      createGame("mexico", "13:00", "c", "ras abu aboud", "polonia") +
+      createGame("frança", "16:00", "d", "al-janoub", "australia")
   ) +
   createCard(
     "23/11",
     "quarta",
-    createGame("morocco", "07:00", "f", "al-bayt", "croatia") +
-      createGame("germany", "10:00", "e", "khalifa", "japan") +
-      createGame("spain", "13:00", "e", "al-thumama", "costa rica") +
-      createGame("belgium", "16:00", "f", "al-rayyan", "canada")
+    createGame("marocos", "07:00", "f", "al-bayt", "croacia") +
+      createGame("alemanha", "10:00", "e", "khalifa", "japao") +
+      createGame("espanha", "13:00", "e", "al-thumama", "costa rica") +
+      createGame("belgica", "16:00", "f", "al-rayyan", "canada")
   )
 
 const color = document.querySelector(".theme")
