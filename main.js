@@ -4,14 +4,14 @@ function createGame(player1, hour, group, stadium, player2) {
     <main>
 
       <div>
-      <img src="./assets/flags/icon=${player1}.svg" alt="Bandeira do ${player1}">
+      <img src="./assets/flags/icon-${player1}.svg" alt="Bandeira do ${player1}">
       <span>${player1.substr(0, 3)}</span>
       </div>
 
       <strong><span>grupo ${group}</span> ${hour}<span class="stadium">${stadium}</span></strong>
       
       <div>
-      <img src="./assets/flags/icon=${player2}.svg" alt="Bandeira da ${player2}" />
+      <img src="./assets/flags/icon-${player2}.svg" alt="Bandeira da ${player2}" />
       <span>${player2.substr(0, 3)}</span>
       </div>
 
