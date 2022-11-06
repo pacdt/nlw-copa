@@ -5,10 +5,10 @@
 }
 
 :root {
-  --card-color-pimary: #f7dd43;
-  --card-title-border-color: #746615;
-  --card-bg-color: #1d1c19;
-  --bg-color: url(./assets/bg-yellow.svg);
+  --card-color-pimary: #9747ff;
+  --card-title-border-color: #9747ff;
+  --card-bg-color: #251e2e;
+  --bg-color: url(./assets/bg-purple.svg);
 }
 body.blue {
   --card-color-pimary: #338af3;
@@ -22,11 +22,11 @@ body.green {
   --card-bg-color: #1a241c;
   --bg-color: url(./assets/bg-green.svg);
 }
-body.purple {
-  --card-color-pimary: #9747ff;
-  --card-title-border-color: #9747ff;
-  --card-bg-color: #251e2e;
-  --bg-color: url(./assets/bg-purple.svg);
+body.yellow {
+  --card-color-pimary: #f7dd43;
+  --card-title-border-color: #746615;
+  --card-bg-color: #1d1c19;
+  --bg-color: url(./assets/bg-yellow.svg);
 }
 
 ul {

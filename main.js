@@ -63,18 +63,18 @@ document.querySelector("#cards").innerHTML =
 const color = document.querySelector(".theme")
 
 function changeColorGreen(color) {
-  document.body.classList.remove("theme", "purple", "blue", "theme")
+  document.body.classList.remove("theme", "yellow", "blue", "theme")
   document.body.classList.toggle("green")
 }
 function changeColorBlue(color) {
-  document.body.classList.remove("green", "purple", "theme")
+  document.body.classList.remove("green", "yellow", "theme")
   document.body.classList.toggle("blue")
 }
 function changeColorPurple(color) {
   document.body.classList.toggle("purple")
-  document.body.classList.remove("green", "blue", "theme")
+  document.body.classList.remove("green", "blue", "yellow")
 }
 function changeColorYellow(color) {
-  document.body.classList.remove("green", "blue", "purple")
-  document.body.classList.toggle("theme")
+  document.body.classList.remove("green", "blue", "theme")
+  document.body.classList.toggle("yellow")
 }
