@@ -158,7 +158,7 @@ header h2{
 .card h2,
 .card ul li strong,
 .card ul li img {
-  transition: transform 0s;
+  transition: transform 0.3s;
 }
 .card ul li strong span {
   text-transform: uppercase;
@@ -171,7 +171,8 @@ header h2{
   color: #f7dd43;
 }
 .card {
-  animation: appear 1.5s;
+  opacity: 0;
+  animation: appear .5s forwards;
 }
 
 @keyframes appear {
