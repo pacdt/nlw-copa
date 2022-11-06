@@ -58,11 +58,20 @@ document.querySelector("#cards").innerHTML =
   )
 
 const color = document.querySelector(".theme")
-function changeColor(color) {
-  if (color == ".theme") {
-    document.body.classList.toggle(color)
-  }
-  if (color == ".blue" || ".green" || ".blue" || ".purple" || ".yellow") {
-    document.body.classList.toggle(color)
-  }
+
+function changeColorGreen(color) {
+  document.body.classList.remove("theme", "purple", "blue", "theme")
+  document.body.classList.toggle("green")
+}
+function changeColorBlue(color) {
+  document.body.classList.remove("green", "purple", "theme")
+  document.body.classList.toggle("blue")
+}
+function changeColorPurple(color) {
+  document.body.classList.toggle("purple")
+  document.body.classList.remove("green", "blue", "theme")
+}
+function changeColorYellow(color) {
+  document.body.classList.remove("green", "blue", "purple")
+  document.body.classList.toggle("theme")
 }

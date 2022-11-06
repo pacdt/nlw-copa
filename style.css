@@ -192,10 +192,12 @@ header {
 #themes button {
   border: none;
   padding: 10px 10px;
+  border-radius: 10px;
 }
 
 #themes button:hover {
   cursor: pointer;
+  transform: scale(1.1);
 }
 
 .theme1 {
