@@ -5,16 +5,12 @@ function createGame(player1, hour, group, player2) {
     <strong><span>grupo ${group}</span> ${hour}</strong>
     <img src="./assets/flags/icon=${player2}.svg" alt="Bandeira da ${player2}" />
   </li>
-  <p>
-  <span>
-  ${player1}</span>
-  <span>${player2}</span>
-  </p>
+  
   `
 }
-let delay = -1
+let delay = -0.4
 function createCard(date, day, games) {
-  delay = delay + 1
+  delay = delay + 0.4
   return `
     <div class="card" style="animation-delay: ${delay}s">
       <h2>${date} <span>${day}</span></h2>
