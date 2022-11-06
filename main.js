@@ -48,7 +48,13 @@ document.querySelector("#cards").innerHTML =
     "02/12",
     "sexta",
     createGame("cameroon", "16:00", "G", "brazil") +
-      createGame("portugal", "13:00", "G", "uruguay")
+      createGame("argentina", "13:00", "G", "uruguay")
+  ) +
+  createCard(
+    "02/12",
+    "sexta",
+    createGame("cameroon", "16:00", "G", "brazil") +
+      createGame("portugal", "13:00", "G", "brazil")
   )
 
 const color = document.querySelector(".theme")
