@@ -284,6 +284,10 @@ header h2{
   text-transform: uppercase;
   border: none;
   margin-top: -5px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
 }
 .card ul li div {
   display: flex;
@@ -295,9 +299,9 @@ header h2{
   color: #e1e1e6;
   text-transform: uppercase;
 }
-.card ul li div span:hover {
+/* .card ul li div span:hover {
   transform: scale(1.1);
-}
+} */
 .card ul li div img {
   max-width: 50px;
 }
