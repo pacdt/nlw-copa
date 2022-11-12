@@ -183,7 +183,7 @@ header h2{
 .card h2:hover,
 .card ul li strong:hover,
 .card ul li img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .card h2,
@@ -257,7 +257,7 @@ header h2{
 
 #themes button:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .theme1 {
