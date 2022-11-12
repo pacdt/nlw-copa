@@ -43,7 +43,9 @@ nav{
   flex-direction: column;
   justify-content: space-between;
   /* margin-bottom: 10px; */
-  border-bottom: 1px solid var(--card-color-pimary);
+  /* border-bottom: 1px solid var(--card-color-pimary); */
+  text-align: center;
+  margin: 0 auto;
 }
 
 .btn {
@@ -228,6 +230,10 @@ header h2{
 @media (min-width: 1040px) {
   #cards, #semana1, #semana2, #oitavas, #quartas, #semifinal, #final {
     max-width: 1024px;
+  }
+  nav{
+    max-width: 700px;
+    justify-content: space-between;
   }
 }
 @media (min-width: 1376px) {
