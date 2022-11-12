@@ -38,6 +38,35 @@ body.red{
 .logo{
   width: 100px;
 }
+nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-bottom: 10px; */
+  border-bottom: 1px solid var(--card-color-pimary);
+}
+
+.btn {
+  border: 0 solid;
+  /* box-shadow: inset 0 0 10px var(--card-title-border-color); */
+  outline: 1px solid;
+  outline-color: var(--card-title-border-color);
+  outline-offset: 0px;
+  text-shadow: none;
+  /* transition: all 1s cubic-bezier(0.19, 1, 0.22, 1); */
+  padding: 10px;
+  margin-top: 7px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: var(--card-bg-color);
+  cursor: pointer;
+  margin-bottom: 7px;
+} 
+
+.btn:hover {
+  transform: scale(1.1);
+}
 
 ul {
   list-style: none;
@@ -74,7 +103,7 @@ header h2{
   padding-bottom: 10px;
 }
 
-#cards {
+#cards, #semana1, #semana2, #oitavas, #quartas, #semifinal, #final {
   display: flex;
   flex-direction: column;
   gap: 32px;
@@ -172,7 +201,7 @@ header h2{
 }
 .card {
   opacity: 0;
-  animation: appear .5s forwards;
+  animation: appear 500ms forwards;
 }
 
 @keyframes appear {
@@ -187,21 +216,25 @@ header h2{
 }
 
 @media (min-width: 700px) {
-  #cards {
+  #cards, #semana1, #semana2, #oitavas, #quartas, #semifinal, #final {
     flex-direction: row;
     max-width: 670px;
     flex-wrap: wrap;
   }
+  nav{
+    flex-direction: row;
+  }
 }
 @media (min-width: 1040px) {
-  #cards {
+  #cards, #semana1, #semana2, #oitavas, #quartas, #semifinal, #final {
     max-width: 1024px;
   }
 }
 @media (min-width: 1376px) {
-  #cards {
+  #cards, #semana1, #semana2, #oitavas, #quartas, #semifinal, #final {
     max-width: 1376px;
   }
+
 }
 
 #themes {

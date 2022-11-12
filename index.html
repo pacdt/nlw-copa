@@ -24,9 +24,22 @@
       <header>
         <img class="logo" src="./assets/logo.webp" alt="Logo da NLW" />
         <h2>calendário</h2>
+        <nav id="menu">
+          <button class="btn" onclick="jogos('cards')">1ª Semana</button>
+          <button class="btn" onclick="jogos('semana2')">2ª Semana</button>
+          <button class="btn" onclick="jogos('oitavas')">Oitavas</button>
+          <button class="btn" onclick="jogos('quartas')">Quartas</button>
+          <button class="btn" onclick="jogos('semifinal')">Semifinal</button>
+          <button class="btn" onclick="jogos('final')">Final</button>
+        </nav>
       </header>
-      <main id="cards">
-      </main>
+      <main id="cards"></main>
+      <main id="semana1"></main>
+      <main id="semana2"></main>
+      <main id="oitavas"></main>
+      <main id="quartas"></main>
+      <main id="semifinal"></main>
+      <main id="final"></main>
     </div>
     <script src="./main.js"></script>
   </body>
