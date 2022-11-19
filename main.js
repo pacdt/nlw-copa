@@ -151,7 +151,7 @@ document.querySelector("#semana2").innerHTML =
   ) +
   createCard(
     "01/12",
-    "quarta",
+    "quinta",
     createGame("croacia", "12:00", g + "f", "Assistir", "belgica") +
       createGame("canada", "12:00", g + "f", "assistir", "marrocos") +
       createGame("japao", "16:00", g + "e", "assitir", "espanha") +
@@ -159,7 +159,7 @@ document.querySelector("#semana2").innerHTML =
   ) +
   createCard(
     "02/12",
-    "quarta",
+    "sexta",
     createGame("coreia", "12:00", g + "h", "Assistir", "portugal") +
       createGame("gana", "12:00", g + "h", "assistir", "uruguai") +
       createGame("servia", "16:00", g + "g", "assitir", "suica") +
